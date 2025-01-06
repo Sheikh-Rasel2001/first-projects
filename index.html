@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel Blog</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <section>
+            <form>
+                <label for="fname">Your Name:
+                    <input id="fname" type="text" placeholder="your name">
+                    
+                </label>
+                <label for="email">Your E-mail:
+                    <input type="text" id="email" placeholder="valid email">
+                </label>
+                <label for="number">Your Phone: 
+                    <input type="text" id="number" placeholder="mobile number">
+                </label>
+                <fieldset>
+                    <legend>
+                        Select One
+                    </legend>
+                    <label for="subject">
+                        <input type="radio" name="future" id="subject">Physics
+                    </label>
+                    <label for="chemistry">
+                        <input type="radio" name="future" id="chemistry">Chemistry 
+                    </label>
+                    <label for="biology">
+                        <input type="radio" name="future" id="biology">Biology
+                    </label>
+                    <label for="economics">
+                        <input type="radio" name="future" id="economics">Economics
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose here</legend>
+                    <label for="bangla">
+                        <input type="checkbox" name="subject1" id="bangla">Bangla
+                    </label>
+                    <label for="english">
+                        <input type="checkbox" name="subject1" id="english">English
+                    </label>
+                    <label for="math">
+                        <input type="checkbox" name="subject1" id="math">Math
+                    </label>
+                    <label for="islam">
+                        <input type="checkbox" name="subject1" id="islam">Islamic Studies
+                    </label>
+                </fieldset>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
